@@ -4,20 +4,23 @@
 
 ### Google C++ Style Guide and associated linter
 
-https://google.github.io/styleguide/cppguide.html
+- https://google.github.io/styleguide/cppguide.html
+- https://raw.githubusercontent.com/google/styleguide/gh-pages/cpplint/cpplint.py
 
-https://raw.githubusercontent.com/google/styleguide/gh-pages/cpplint/cpplint.py
+### Clang-Tidy
 
-### Clang-Tidy (the best C++ linter IMHO)
+The best C++ linter IMHO.
 
-https://clang.llvm.org/extra/index.html
-
-https://devblogs.microsoft.com/cppblog/visual-studio-code-c-december-2021-update-clang-tidy/
+- https://clang.llvm.org/extra/index.html
+- https://devblogs.microsoft.com/cppblog/visual-studio-code-c-december-2021-update-clang-tidy/
 
 ### CppCheck
 
-https://cppcheck.sourceforge.io/
+- https://cppcheck.sourceforge.io/
 
 ### Tutorial & Crib Sheets
 
-https://cplusplus.com/
+- https://cplusplus.com/
+- https://cplusplus.com/doc/tutorial/
+- https://cplusplus.com/reference/
+- https://cplusplus.com/articles/
