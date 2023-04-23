@@ -5,21 +5,22 @@
 
 #include <iostream>
 
-using namespace std;
+using std::cout;
+using std::endl;
 
-void swap_pointers(int *x, int *y)
+void SwapPointers(int *x, int *y)
 {
     int temp = *x;
     *x = *y;
     *y = temp;
 }
 
-void swap_references(int &x, int &y)
-{
-    int temp = x;
-    x = y;
-    y = temp;
-}
+// void swap_references(int &x, int &y)
+// {
+//     int temp = x;
+//     x = y;
+//     y = temp;
+// }
 
 int main()
 {
@@ -34,14 +35,14 @@ int main()
     printf("total=%d \n", total);
     cout << "total=" << total << endl;
 
-    // using the "address-of" operator, assign the address of "total" to "ip", now "ip" points to "total"
+    // use "address-of" operator, assign the address of "total" to "ip", now "ip" points to "total"
     ip = &total;
 
-    // using the "dereference" operator, get what "ip" points at, i.e.: the value of "total"
+    // use "dereference" operator, get what "ip" points at, i.e.: the value of "total"
     printf("*ip=%d \n", *ip);
     cout << "*ip=" << *ip << endl;
 
-    // ....
+    // change "total" directly and see what "ip" points at
     total = 123;
     cout << "*ip=" << *ip << endl;
 
@@ -49,12 +50,18 @@ int main()
     int count = 0;
     cout << "count=" << count << endl;
     cout << "total=" << total << endl;
-    swap_pointers(&count, &total);
+    SwapPointers(&count, &total);
     cout << "count=" << count << endl;
     cout << "total=" << total << endl;
-    swap_references(count, total);
-    cout << "count=" << count << endl;
-    cout << "total=" << total << endl;
+    // swap_references(count, total);
+    // cout << "count=" << count << endl;
+    // cout << "total=" << total << endl;
+
+    cout << "before increment via pointer, total=" << total << endl;
+    (*ip)++;
+    cout << "after increment via pointer, total=" << total << endl;
+    (*ip)--;
+    cout << "after decrement via pointer, total=" << total << endl;
 
     cout << "goodbye world" << endl;
 }
