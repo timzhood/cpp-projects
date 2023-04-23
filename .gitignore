@@ -1,0 +1,5 @@
+*.exe
+*.ilk
+*.obj
+*.pdb
+CPP-Projects-cppcheck-build-dir/
