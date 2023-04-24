@@ -24,3 +24,4 @@ The best C++ linter IMHO.
 - https://cplusplus.com/doc/tutorial/
 - https://cplusplus.com/reference/
 - https://cplusplus.com/articles/
+- https://github.com/AnthonyCalandra/modern-cpp-features
