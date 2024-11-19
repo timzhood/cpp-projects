@@ -24,3 +24,6 @@ The best C++ linter IMHO.
 - https://cplusplus.com/doc/tutorial/
 - https://cplusplus.com/reference/
 - https://cplusplus.com/articles/
+- https://github.com/AnthonyCalandra/modern-cpp-features
+- https://wiki.qt.io/Smart_Pointers
+- https://cplusplus.com/reference/memory/auto_ptr/
